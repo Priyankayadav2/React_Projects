@@ -43,7 +43,7 @@ const ContactForm = () => {
                     </div>
                     <div className={styles.form_control}>
                     <label htmlFor='text'>TEXT</label>
-                    <textarea id='text' rows="8" />
+                    <textarea id='text' rows="8"  />
                     </div>
                     <div style={{ display:"flex", justifyContent:"end", }}> 
                     <Button text="SUBMIT " type="submit"/>
