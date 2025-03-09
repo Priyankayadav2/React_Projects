@@ -1,17 +1,11 @@
-import ContactHeader from "./components/ContactHeader/ContactHeader";
-import Navigation from "./components/Navigation/Navigation";
-import ContactForm from "./components/ContactForm/ContactForm";
 import './App.css';
 
 function App(){
     return (
     <div>
-        <Navigation />
-        <main className="main_container">
-        <ContactHeader />
-        <ContactForm />
-        </main>
-        
+        <h1>Hello Priyanka Yadav.</h1>
+        <h2>What's going on nowsdays.</h2> 
+
     </div>
     )
 }
